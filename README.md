@@ -22,7 +22,7 @@ https://github.com/bermeo2000/Test-Galaxia.git
     ...
     tegj es L
     
-2.- Para calcular una suma de números romanos debe ingresar:
+2.- Para agregar y poder suma de números romanos y los créditos:
 
     glob glob Silver es 34 Créditos
     ....
