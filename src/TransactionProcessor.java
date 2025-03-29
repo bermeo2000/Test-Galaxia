@@ -76,8 +76,6 @@ public class TransactionProcessor {
         }
     }
 
-
-
     private String[] extractIntergalacticWords(String[] words, int startIndex) {
         String[] intergalacticWords = new String[words.length - startIndex];
         System.arraycopy(words, startIndex, intergalacticWords, 0, words.length - startIndex);

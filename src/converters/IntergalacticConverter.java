@@ -40,7 +40,6 @@ public class IntergalacticConverter {
             return -1;
         }
 
-        // Si todo está bien, realizar la conversión.
         return RomanNumeralConverter.romanToInteger(romanNumber.toString());
     }
 }
