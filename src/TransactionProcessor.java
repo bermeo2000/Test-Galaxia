@@ -47,7 +47,7 @@ public class TransactionProcessor {
         String[] words = input.split(" ");
 
         if (input.startsWith("¿cuanto cuesta")) {
-            String[] intergalacticWords = extractIntergalacticWords(words, 2);
+            String[] intergalacticWords = extractIntergalacticWords(words);
             int value = converter.convertToInteger(intergalacticWords);
 
             if (value != -1) {
@@ -76,9 +76,9 @@ public class TransactionProcessor {
         }
     }
 
-    private String[] extractIntergalacticWords(String[] words, int startIndex) {
-        String[] intergalacticWords = new String[words.length - startIndex];
-        System.arraycopy(words, startIndex, intergalacticWords, 0, words.length - startIndex);
+    private String[] extractIntergalacticWords(String[] words) {
+        String[] intergalacticWords = new String[words.length - 2];
+        System.arraycopy(words, 2, intergalacticWords, 0, words.length - 2);
         return intergalacticWords;
     }
 }
