@@ -11,11 +11,13 @@ public class IntergalacticConverter {
             System.out.println("Error: '" + roman + "' no es un símbolo romano válido.");
             return;
         }
+        if (intergalacticToRoman.containsKey(intergalactic)) {
+            System.out.println("ya existe la moneda intergalactic " + intergalactic);
+            return;
+        }
+
         if (intergalacticToRoman.containsValue(roman)) {
             System.out.println("ya existe el romano " + roman);
-            return;
-        } else if (intergalacticToRoman.containsKey(intergalactic)) {
-            System.out.println("ya existe la moneda intergalactic " + intergalactic);
             return;
         }
 
@@ -28,7 +30,7 @@ public class IntergalacticConverter {
         for (String word : words) {
             String roman = intergalacticToRoman.get(word);
             if (roman == null) {
-                System.out.println("Error: No se encontró el valor para " + word);
+                System.out.println("Error: Este intergaláctica no esta registrado " + word);
                 return -1;
             }
             romanNumber.append(roman);

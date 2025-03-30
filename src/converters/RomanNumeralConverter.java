@@ -22,15 +22,10 @@ public class RomanNumeralConverter {
 
         if (roman.matches(".*(VV|LL|DD).*")) return false;
 
-        if (roman.matches(".*(IL|IC|ID|IM|VX|VL|VC|VD|VM|XD|XM|LC|LD|LM|DM).*")) return false;
-
-        return true;
+        return !roman.matches(".*(IL|IC|ID|IM|VX|VL|VC|VD|VM|XD|XM|LC|LD|LM|DM).*");
     }
 
     public static int romanToInteger(String roman) {
-        if (!isValidRoman(roman)) {
-            System.out.println("Error: No se puede sumar esto valores" + roman);
-        }
 
         int total = 0;
         int prevValue = 0;

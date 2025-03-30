@@ -53,7 +53,7 @@ public class TransactionProcessor {
             if (value != -1) {
                 System.out.println(input.substring(14) + " es " + value);
             } else {
-                System.out.println("Error: No se puede sumar estos valores");
+                System.out.println("Error: No se puede calcular estos valores por la regla");
             }
 
         }
@@ -68,7 +68,7 @@ public class TransactionProcessor {
                 double totalCredits = quantity * metalValues.get(metal);
                 System.out.println(input.substring(22) + " son " + (int) totalCredits + " créditos");
             } else {
-                System.out.println("Error: No se pudo calcular los créditos o el metal no está registrado.");
+                System.out.println("Error: No se pudo calcular los créditos por que no está registrado.");
             }
         }
         else {

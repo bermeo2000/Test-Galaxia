@@ -13,7 +13,6 @@ public class Main {
             if (input.isEmpty()) break; // Salir con línea vacía
             processor.processInput(input);
         }
-
         scanner.close();
     }
 }
