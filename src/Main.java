@@ -10,7 +10,7 @@ public class Main {
 
         while (scanner.hasNextLine()) {
             String input = scanner.nextLine().trim();
-            if (input.isEmpty()) break; // Salir con línea vacía
+            if (input.isEmpty()) break;
             processor.processInput(input);
         }
         scanner.close();

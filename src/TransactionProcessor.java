@@ -56,8 +56,7 @@ public class TransactionProcessor {
                 System.out.println("Error: No se puede calcular estos valores por la regla");
             }
 
-        }
-        else if (input.toLowerCase().startsWith("¿cuántos créditos son") || input.toLowerCase().startsWith("¿cuantos créditos son")) {
+        } else if (input.toLowerCase().startsWith("¿cuántos créditos son") || input.toLowerCase().startsWith("¿cuantos créditos son")) {
             int lastIndex = input.lastIndexOf(" ");
             String metal = input.substring(lastIndex + 1).trim();
 
@@ -68,10 +67,9 @@ public class TransactionProcessor {
                 double totalCredits = quantity * metalValues.get(metal);
                 System.out.println(input.substring(22) + " son " + (int) totalCredits + " créditos");
             } else {
-                System.out.println("Error: No se pudo calcular los créditos por que no está registrado.");
+                System.out.println("Error: No se pudo calcular los créditos por que no está registrado el metal.");
             }
-        }
-        else {
+        } else {
             System.out.println("No entiendo la pregunta.");
         }
     }

@@ -15,7 +15,6 @@ public class IntergalacticConverter {
             System.out.println("ya existe la moneda intergalactic " + intergalactic);
             return;
         }
-
         if (intergalacticToRoman.containsValue(roman)) {
             System.out.println("ya existe el romano " + roman);
             return;
@@ -36,7 +35,6 @@ public class IntergalacticConverter {
             romanNumber.append(roman);
         }
         System.out.println("Conversión: " + String.join(" ", words) + " → " + romanNumber);
-
 
         if (!RomanNumeralConverter.isValidRoman(romanNumber.toString())) {
             return -1;
