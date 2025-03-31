@@ -79,7 +79,7 @@ Error: Entrada inválida
 
 ## Créditos
 
-- Luis Macias (https://github.com/bermeo2000)
+- Luis Macias: https://github.com/bermeo2000
 
 ## Contacto
 
