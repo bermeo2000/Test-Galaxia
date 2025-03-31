@@ -15,20 +15,20 @@ https://github.com/bermeo2000/Test-Galaxia.git
 
 ## Manual de Usuario
 
-1.- Para agregar una unidad:
+1.- Asignación de valores intergalácticos a números romanos.
 
     Ingrese el dato indicado: 
     glob es I
     ...
     tegj es L
     
-2.- Para agregar y poder suma de números romanos y los créditos:
+2.- Asignación de valores metálicos con créditos.
 
     glob glob Silver es 34 Créditos
     ....
     pish pish Iron es 3910 Créditos
 
-3.- Para consultar el crédito de una unidad intergaláctica por alias debe ingresar:
+3.- Preguntas sobre valores o créditos.
 
     ¿Cuántos créditos tiene glob prok Silver?
     ......
@@ -38,7 +38,7 @@ https://github.com/bermeo2000/Test-Galaxia.git
     
     No entiendo la pregunta.
   
-### Nota: Se debe tener en cuenta la sintaxis establecida, en caso de cometer un error al escribir una nota se presentará el siguiente mensaje: Nota incorrecta
+### Nota: Se debe tener en cuenta la sintaxis establecida, en caso de cometer un error le saldrá un mensaje depende de donde sea el error.
 
 ### Entrada de Prueba:
 glob es I
@@ -66,6 +66,7 @@ pish pish Iron es 3910 Créditos
 ¿Cuánta madera podría roer una marmota si una marmota pudiera roer madera?
 
 ### Salida de Prueba:
+
 pish tegj glob glob es 42
 
 glob prok Silver es 68 créditos
