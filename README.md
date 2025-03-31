@@ -3,7 +3,6 @@
 ## Requisitos
 
 - Java 11
-- IntelliJ IDEA
 
 ## Instalación
 
